@@ -1,14 +1,12 @@
-README
------------
+# plugin.video.magicplayer - video-plugin for kodi
 
-1. How to install?
-==================
+## Features
+* Play .ts streams
+* Play local movies
+* Play remote movies
+* Support for history channel and movies
 
-
-
-
-1.1 Addon-Depencies:
-----------------------
+## 1.1 Addon-Depencies:
 |- plugin.video.f4mTester-2.7.2.zip
 |  |- script.video.F4mProxy-2.8.8.zip
 |
