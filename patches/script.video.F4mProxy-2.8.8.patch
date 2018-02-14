@@ -1,0 +1,12 @@
+diff -Nru script.video.F4mProxy-2.8.8/lib/F4mProxy.py script.video.F4mProxy/lib/F4mProxy.py
+--- script.video.F4mProxy-2.8.8/lib/F4mProxy.py	2018-02-13 20:52:56.974554035 +0100
++++ script.video.F4mProxy/lib/F4mProxy.py	2018-02-02 01:10:24.000000000 +0100
+@@ -455,7 +455,7 @@
+             
+             listitem.setInfo('video', {'Title': name})
+             try:
+-                if streamtype==None or streamtype=='' or streamtype in ['HDS'  'HLS','HLSRETRY']:
++                if streamtype==None or streamtype=='' or streamtype in ['HDS', 'HLS', 'HLSRETRY']:
+                     listitem.setMimeType("flv-application/octet-stream");
+                     listitem.setContentLookup(False)
+                 elif streamtype in ('TSDOWNLOADER'):
